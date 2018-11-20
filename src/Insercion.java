@@ -49,33 +49,6 @@ public class Insercion {
 		file.writeDouble (salarioInput);
 		System.out.println("DONE");
 		
-		/*
-		int n = apellido.length; //Número de elementos en el array
-		if (idInput > apellido.length) {
-			for (int i = 0; i<n+1; i++) {
-				if (i <= 3) {
-					file.writeInt (i+1);
-					buffer = new StringBuffer (apellido[i]);
-					buffer.setLength(10); // Fijo en 10 caracteres la longitud del apellido
-					file.writeChars (buffer.toString());
-					file.writeInt(dep[i]);
-					file.writeDouble (salario[i]);
-				}else {
-					file.writeInt(idInput);
-					buffer = new StringBuffer (apellidoInput);
-					buffer.setLength(10); // Fijo en 10 caracteres la longitud del apellido
-					file.writeChars (buffer.toString());
-					file.writeInt(departamentoInput);
-					file.writeDouble (salarioInput);
-				}
-				
-				
-			}
-		}else {
-			System.out.println("El identificador ya existe");
-		}
-		*/
-		
 		file.close(); // No olvidarse de cerrar el fichero
 	}
 }
