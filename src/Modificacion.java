@@ -17,6 +17,8 @@ public class Modificacion {
 		
 		File fichero = new File ("AleatorioEmpleado.dat");
 		RandomAccessFile file = new RandomAccessFile (fichero , "rw");
+		
+		
 	}
 
 }
