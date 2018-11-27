@@ -20,7 +20,7 @@ public class LeerFicheroAleatorio {
 			String apellidos = new String (apellido);
 			dep = file.readInt(); //Lectura de departamento y salario
 			salario = file.readDouble();
-			if (id >0) {
+			if (id > -10) {
 				System.out.printf("ID: %s, Apellido: %s, Departamento: %d, Salario: %.2f %n", id,
 						 apellidos.trim(), dep, salario);
 						 posicion = posicion + 36;

@@ -9,7 +9,7 @@ public class EscribirFicheroAleatorio {
 		RandomAccessFile file = new RandomAccessFile (fichero , "rw");
 		String apellido[] = {"Fernández", "Gil", "López", "Ramos"};
 		int dep[] = {10,20,10,10};
-		Double salario[] = {1000.45,2400.60,3000.0,1500.56};
+		double salario[] = {1000.45,2400.60,3000.0,1500.56};
 		StringBuffer buffer = null; //Buffer para almacenar apellido
 		int n = apellido.length; //Número de elementos en el array
 		

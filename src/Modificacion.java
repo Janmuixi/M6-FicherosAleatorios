@@ -61,7 +61,7 @@ public class Modificacion {
 		}
 		System.out.println("Antiguo sueldo: " + salarioOldConst + "€");
 		System.out.println("Nuevo sueldo: " + salarioInput + "€");
-		
+		file.close();
 	}
 
 }
